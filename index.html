@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    
+</head>
+<body>
+    <div class="container my-3 text-center">
+        <h1 Class="display-5">Вычесление корней квадратного уравнения вида <p>ax<sup>2</sup>+bx+c=0</h1>
+    
+    <div class="row g-3">
+        <div class="col-4">
+          <img src="https://avatars.mds.yandex.net/i?id=332962922adfe4906fc39761906a305c94b6d99b-4468364-images-thumbs&n=13" alt="">  
+        </div>
+        <div class="col-4">
+            <form action="javascript:calculate()">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">a</label>
+    <input id="a" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Введите коэфициент "a"</div>
+  </div>
+   <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">b</label>
+    <input id ="B" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Введите коэфициент "b"</div>
+  </div>
+   <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">c</label>
+    <input id="c" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Введите коэфициент "c"</div>
+  </div>
+  <button type="submit" class="btn btn-primary">Рассчитать</button>
+</form>
+        </div>
+        <div class="col-4">
+            <h3 Class="display-5">Решение</h3>
+            <span id="answer"></span>
+
+        </div>
+    </div>
+    </div>
+    
+    <script src="my1.js"></script>
+</body>
+</html>
